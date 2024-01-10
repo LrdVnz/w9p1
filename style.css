@@ -1,3 +1,7 @@
+main {
+    background-color: #f5f4f8;
+}
+
 #user-pic {
     object-fit: cover;
     border-radius: 50%; 
@@ -18,7 +22,28 @@
     background-color: #7550fe;
 }
 
+#courses-btn {
+    background-color: #1acb98 !important;
+}
+
+#instructor-btn {
+    background-color: #ffffff;
+    color: black;
+}
+
 .card {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.icon-container {
+    border-radius: 50%; 
+    width: 50px;
+    height: 50px; 
+    background-color: #ffeeda
+}
+
+#hero-bottom {
+    padding-bottom: 20px; 
+    border-bottom: 1px solid gray; 
 }
