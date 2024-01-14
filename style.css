@@ -47,3 +47,21 @@ main {
     padding-bottom: 20px; 
     border-bottom: 1px solid gray; 
 }
+
+.save-btn {
+  border: 0px;
+  background: none; 
+}
+
+
+.bookmark-icon {
+    fill: white; 
+}
+ 
+ 
+.bookmark-icon:hover {
+    fill: black;
+    cursor: pointer;
+    transition: fill 0.1s linear 0.25s;
+}
+
