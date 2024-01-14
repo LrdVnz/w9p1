@@ -4,15 +4,15 @@ feather.replace();
 
 /* Script per creare animazione di riempimento del bookmark */
 
-/* let bookmarks = document.getElementsByClassName("bookmark-icon");
+let cards = document.getElementsByClassName("card");
 
-for(single_bookmark of bookmarks){
-  single_bookmark.addEventListener('mouseenter' , (event) => {
-    event.target.setAttribute('fill', 'black');
+for(single_card of cards){
+  single_card.addEventListener('mouseenter' , (event) => {
+    event.target.classList.add("show");
   });
 
-  single_bookmark.addEventListener('mouseleave' , (event) => {
-    event.target.setAttribute('fill', 'none');
+  single_card.addEventListener('mouseleave' , (event) => {
+    event.target.classList.remove("show");
   });
 
-} */
+} 
